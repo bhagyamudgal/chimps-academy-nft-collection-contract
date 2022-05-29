@@ -45,7 +45,7 @@ contract ChimpsAcademy is ERC721Enumerable, Ownable {
      * It also initializes an instance of whitelist interface.
      */
     constructor(string memory baseURI, address whitelistContract)
-        ERC721("Chimp", "CP")
+        ERC721("Chimps Academy Collection", "CAC")
     {
         _baseTokenURI = baseURI;
         whitelist = IWhitelist(whitelistContract);
